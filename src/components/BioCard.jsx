@@ -35,8 +35,18 @@ const BioCard = () => {
             <p>Coding</p>
           </div>
         </div>
+        <br />
+        <div className="flex items-center justify-between mb-3">
+          <h5 className="block font-sans text-xl antialiased font-medium leading-snug tracking-normal text-blue-gray-900">
+            Education
+          </h5>
+        </div>
+        <h5>
+          <b>Indian Institute of Information Technology</b>
+        </h5>
+        <p>Btech in Computer Science and Artificial Intelligence</p>
       </div>
-      <div className="p-8 pt-3"></div>
+      {/* <div className="p-8 pt-3"></div> */}
     </div>
   );
 };
