@@ -31,7 +31,7 @@ const AuthPage = () => {
         // Signup
         await createUserWithEmailAndPassword(auth, email, password);
         console.log("User registered successfully");
-        // navigate("/create-profile");
+        navigate("/create-profile");
       }
       // const user = userCredential.user;
     } catch (error) {
