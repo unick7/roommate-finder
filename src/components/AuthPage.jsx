@@ -46,7 +46,7 @@ const AuthPage = () => {
         <div className="w-1/2 mr-8">
           <img
             className="mb-4 mx-auto w-30 h-24 rounded-full"
-            src="src/assets/logo.png"
+            src="/assets/logo.png"
             alt="Logo"
           />
           <h1 className="text-4xl font-bold text-gray-800 mb-2">
