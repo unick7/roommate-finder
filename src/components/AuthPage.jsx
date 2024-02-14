@@ -1,6 +1,6 @@
 // AuthPage.js
 import { useState } from "react";
-import { auth } from "/Users/nikhilv/Desktop/my-project/firebase.js";
+import { auth } from "../../firebase";
 import {
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
